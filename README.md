@@ -1,29 +1,5 @@
 Projeto DSList - Intensivão Java Spring
-1. Perdeu alguma aula ou material de apoio?
 
-Inscreva-se para receber no seu email:
-
-https://devsuperior.com.br
-
-ATENÇÃO: os conteúdos ficarão disponíveis somente até domingo. Então organize-se, e bora pra cima! 
-2. Tem alguma dúvida?
-
-Envie uma mensagem pra gente no email que chegou pra você no ato da sua inscrição.
-
-Calendário
-Os conteúdos ficarão temporariamente disponíveis no nosso canal de eventos. Ative o lembrete:
-
-https://www.youtube.com/@DevsuperiorJavaSpring
-
-Dia / horário	Conteúdo
-Segunda-feira 20h30	Aula 1: Projeto estruturado
-Terça-feira 20h30	Aula 2: Domínio e consultas
-Quarta-feira 20h30	Aula 3: Deploy e CORS
-Quinta-feira 20h30	Aula 4: Endpoint especial
-Sexta-feira 20h30	Aula 5: Resumão e reforço do aprendizado
-Domingo 16h00	Oficina: Avançando na modelagem de dados
-Modelo de domínio DSList
-Modelo de domínio DSList
 
 Trechos de código
 Plug-in Maven
@@ -32,13 +8,13 @@ Plug-in Maven
 	<artifactId>maven-resources-plugin</artifactId>
 	<version>3.1.0</version> <!--$NO-MVN-MAN-VER$ -->
 </plugin>
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
 application.properties
 spring.profiles.active=${APP_PROFILE:test}
 spring.jpa.open-in-view=false
 cors.origins=${CORS_ORIGINS:http://localhost:5173,http://localhost:3000}
 application-test.properties
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 
 
