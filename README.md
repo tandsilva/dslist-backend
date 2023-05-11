@@ -32,12 +32,17 @@ Plug-in Maven
 	<artifactId>maven-resources-plugin</artifactId>
 	<version>3.1.0</version> <!--$NO-MVN-MAN-VER$ -->
 </plugin>
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 application.properties
 spring.profiles.active=${APP_PROFILE:test}
 spring.jpa.open-in-view=false
-
 cors.origins=${CORS_ORIGINS:http://localhost:5173,http://localhost:3000}
 application-test.properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
 # H2 Connection
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.username=sa
